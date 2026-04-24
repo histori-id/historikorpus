@@ -1,6 +1,8 @@
 # HistoriKorpus
 Parallel Corpus of OCR and Ground Truth Texts from Post-Independence Era Old Indonesian Newspapers (1946–1965)
 
+raw_id file memiliki 1489 artikel yang ditranskrip dari 101 surat kabar lama berbahasa Indonesia dari 1549 artikel; dengan kata lain ada 60an artikel tidak terbaca sepenuhnya. Yang diambil hanyalah artikel, sedangkan caption foto tidak ditranskrip.
+
 ## License
 
 This corpus is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0)**.
