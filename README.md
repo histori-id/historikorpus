@@ -8,6 +8,7 @@ Data pdf diambil dari Perpusnas Khastara diambil sebagian dan kami gunakan untuk
 https://drive.google.com/drive/folders/1yJhS--l3nBGNG5S0bXbqtbBmGj_A9rg7?usp=sharing
 
 ## Dependencies
+```bash
 !pip install doclayout-yolo
 !sudo apt install tesseract-ocr
 !pip install pytesseract
@@ -15,6 +16,7 @@ https://drive.google.com/drive/folders/1yJhS--l3nBGNG5S0bXbqtbBmGj_A9rg7?usp=sha
 !apt-get install -y libtesseract-dev
 !sudo apt install tesseract-ocr-ind
 !sudo apt install tesseract-ocr-nld
+```
 
 ## License
 
