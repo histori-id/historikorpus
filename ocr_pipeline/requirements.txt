@@ -1,0 +1,7 @@
+doclayout-yolo
+tesseract-ocr
+pytesseract
+tesseract-ocr
+libtesseract-dev
+tesseract-ocr-ind
+tesseract-ocr-nld
