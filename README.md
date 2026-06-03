@@ -6,6 +6,16 @@ raw_id file memiliki 1489 artikel yang ditranskrip dari 101 surat kabar lama ber
 ## Data Source
 Data pdf diambil dari Perpusnas Khastara diambil sebagian dan kami gunakan untuk OCR dan dapat diakses di sini:
 https://drive.google.com/drive/folders/1yJhS--l3nBGNG5S0bXbqtbBmGj_A9rg7?usp=sharing
+
+## Dependencies
+!pip install doclayout-yolo
+!sudo apt install tesseract-ocr
+!pip install pytesseract
+!apt-get install -y tesseract-ocr
+!apt-get install -y libtesseract-dev
+!sudo apt install tesseract-ocr-ind
+!sudo apt install tesseract-ocr-nld
+
 ## License
 
 This corpus is licensed under the **Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International Public License (CC BY-NC-ND 4.0)**.
