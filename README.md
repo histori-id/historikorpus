@@ -6,12 +6,12 @@
 | | |
 |---|---|
 | **Articles** | 1,489 manually transcribed articles |
-| **Parallel excerpts** | 5,311 paired OCR and ground truth excerpts |
+| **Parallel excerpts** | 5,290 paired OCR and ground truth excerpts |
 | **Newspaper pages** | 101 pages from 6 newspaper titles |
 | **Period covered** | 1946–1965 |
 | **Total tokens** | ~212k tokens (~1,365k characters) |
-| **Baseline CER** | 11.25% (Soeara Oemoem, 25 pages) |
-| **Baseline WER** | 24.22% (Soeara Oemoem, 25 pages) |
+| **Baseline CER** | 8.25% |
+| **Baseline WER** | 34.22% |
 
 ## Newspapers Included
 
