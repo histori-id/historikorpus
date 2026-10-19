@@ -74,7 +74,6 @@ If you use this dataset in your research, please cite our work:
   year={2026}
 }
 
-```markdown
 [![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![License: PDM 1.0](https://img.shields.io/badge/Images_License-PDM_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/mark/1.0/)
 
