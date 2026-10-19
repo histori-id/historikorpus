@@ -1,3 +1,6 @@
+[![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: PDM 1.0](https://img.shields.io/badge/Images_License-PDM_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/mark/1.0/)
+
 # HistoriKorpus
 **HistoriKorpus** is the first dataset of OCR output and ground truth for historical Indonesian newspapers published in the post-independence era (1946–1965). The dataset is designed to support the development and evaluation of OCR and post-OCR correction models for historical Indonesian texts, as well as broader downstream NLP tasks such as named entity recognition, text summarization, and sentiment analysis.ditranskrip.
 
@@ -57,25 +60,13 @@ link:
 !sudo apt install tesseract-ocr-nld
 ```
 
-## 📜 License & Citation
+## 📜 License
 
 This repository uses a dual-licensing scheme:
 
 - **Transcriptions & OCR Data:** Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the text data as long as appropriate credit/citation is given.
 - **Source Newspaper Images:** Marked as [Public Domain Mark 1.0 (PDM 1.0)](https://creativecommons.org/publicdomain/mark/1.0/) due to the expiration of copyright on the original historical publications.
 
-### How to Cite
-If you use this dataset in your research, please cite our work:
-```bibtex
-@article{your_paper_2026,
-  title={Title of Your Paper/Dataset},
-  author={Your Name and Co-authors},
-  journal={Journal Name},
-  year={2026}
-}
-
-[![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![License: PDM 1.0](https://img.shields.io/badge/Images_License-PDM_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/mark/1.0/)
 
 ## Acknowledgements
 
