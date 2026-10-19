@@ -57,14 +57,26 @@ link:
 !sudo apt install tesseract-ocr-nld
 ```
 
-## License
-CC BY 4.0 — Free to use for academic and research purposes with attribution.
+## 📜 License & Citation
 
-For the full legal details, please refer to the [LICENSE](LICENSE) file in this repository.
+This repository uses a dual-licensing scheme:
 
-The original newspaper scans are sourced from the National 
-Library of Indonesia (Perpusnas) via the 
-[Khastara Repository](https://khastara.perpusnas.go.id/).
+- **Transcriptions & OCR Data:** Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the text data as long as appropriate credit/citation is given.
+- **Source Newspaper Images:** Marked as [Public Domain Mark 1.0 (PDM 1.0)](https://creativecommons.org/publicdomain/mark/1.0/) due to the expiration of copyright on the original historical publications.
+
+### How to Cite
+If you use this dataset in your research, please cite our work:
+```bibtex
+@article{your_paper_2026,
+  title={Title of Your Paper/Dataset},
+  author={Your Name and Co-authors},
+  journal={Journal Name},
+  year={2026}
+}
+
+```markdown
+[![License: CC BY 4.0](https://img.shields.io/badge/Data_License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+[![License: PDM 1.0](https://img.shields.io/badge/Images_License-PDM_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/mark/1.0/)
 
 ## Acknowledgements
 
