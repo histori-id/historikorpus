@@ -65,7 +65,7 @@ link:
 This repository uses a dual-licensing scheme:
 
 - **Transcriptions & OCR Data:** Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt the text data as long as appropriate credit/citation is given.
-- **Source Newspaper Images:** Marked as [Public Domain Mark 1.0 (PDM 1.0)](https://creativecommons.org/publicdomain/mark/1.0/) due to the expiration of copyright on the original historical publications.
+- **Source Newspaper PDFs and Images:** Marked as [Public Domain Mark 1.0 (PDM 1.0)](https://creativecommons.org/publicdomain/mark/1.0/)
 
 
 ## Acknowledgements
