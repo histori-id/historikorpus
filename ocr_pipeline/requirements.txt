@@ -1,7 +1,2 @@
-doclayout-yolo
-tesseract-ocr
-pytesseract
-tesseract-ocr
-libtesseract-dev
-tesseract-ocr-ind
-tesseract-ocr-nld
+doclayout-yolo==0.0.4
+pytesseract==0.3.13
