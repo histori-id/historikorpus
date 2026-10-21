@@ -60,6 +60,10 @@ link:
 !sudo apt install tesseract-ocr-nld
 ```
 
+## Reproducing the OCR
+See [`ocr_pipeline/README.md`](ocr_pipeline/README.md). Re-running the pipeline with different hardware or library versions
+may slightly change block boundaries and numbering.
+
 ## 📜 License
 
 This repository uses a dual-licensing scheme:
