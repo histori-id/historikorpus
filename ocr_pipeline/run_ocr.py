@@ -18,8 +18,8 @@ model_path = hf_hub_download(repo_id="juliozhao/DocLayout-YOLO-DocStructBench", 
 drive.mount('/content/drive')
 
 # Define paths
-input_folder = "/content/drive/MyDrive/tugas-akhir/koran-lain/left-images"  
-output_folder = "/content/drive/MyDrive/tugas-akhir/koran-lain/ocr-results"  
+input_folder = "/content/drive/MyDrive/ocr_pipeline/jpg"  
+output_folder = "/content/drive/MyDrive/ocr_pipeline/ocr-result"  
 
 # Load the model
 model = YOLOv10(model_path)
