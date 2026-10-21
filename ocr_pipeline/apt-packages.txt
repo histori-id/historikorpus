@@ -1,0 +1,4 @@
+tesseract-ocr=4.1.1-2.1build1
+libtesseract-dev=4.1.1-2.1build1
+tesseract-ocr-ind=1:4.00~git30-7274cfa-1.1
+tesseract-ocr-nld=1:4.00~git30-7274cfa-1.1
