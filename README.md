@@ -45,6 +45,16 @@ The original scans used in this work are accessible via [Mendeley Data](https://
 See [`ocr_pipeline/README.md`](ocr_pipeline/README.md). Re-running the pipeline with different hardware or library versions
 may slightly change block boundaries and grouping.
 
+## Dataset Splits for Post-OCR Correction
+
+For **post-OCR error correction**, researchers can split the dataset at the excerpt level (using the paired records in `gt_ocr_excerpts`) into standard benchmark partitions. 
+
+We recommend the following standard split ratio to ensure that text degradation characteristics and historical orthographic variations are balanced across all subsets:
+
+* **Training Set (80%):** Used for training the error-correction model.
+* **Validation Set (10%):** Used for hyperparameter tuning and monitoring performance during training.
+* **Testing Set (10%):** Used for final objective evaluation (e.g., calculating final Character Error Rate / Word Error Rate reductions).
+
 ## 📜 License
 
 This repository uses a dual-licensing scheme:
