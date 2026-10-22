@@ -12,7 +12,7 @@ not evaluated as article boundaries.
 
 ![Pipeline data flow](../ocr_pipeline/pipeline_flow.jpg)
 <p align="center">
-  <img src="../ocr_pipeline/pipeline_flow.png" alt="Pipeline data flow" width="600">
+  <img src="../ocr_pipeline/pipeline_flow.jpg" alt="Pipeline data flow" width="600">
 </p>
 
 ## Pipeline overview
