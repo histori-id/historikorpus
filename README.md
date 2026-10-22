@@ -2,17 +2,17 @@
 [![License: PDM 1.0](https://img.shields.io/badge/Images_License-PDM_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/mark/1.0/)
 
 # HistoriKorpus
-**HistoriKorpus** is the first dataset of OCR output and ground truth for historical Indonesian newspapers published in the post-independence era (1946–1965). The dataset is designed to support the development and evaluation of OCR and post-OCR correction models for historical Indonesian texts, as well as broader downstream NLP tasks such as named entity recognition, text summarization, and sentiment analysis.ditranskrip.
+**HistoriKorpus** is the first dataset of OCR output and ground truth for historical Indonesian newspapers published in the post-independence era (1946–1965). The dataset is designed to support the development and evaluation of OCR and post-OCR correction models for historical Indonesian texts, as well as broader downstream NLP tasks such as named entity recognition, text summarization, and sentiment analysis. Although the initial objective was to construct an article-level corpus, severe text overlapping issues—where parts of one article inadvertently merged with another—led us to publish a parallel corpus at the block level. Nevertheless, the metadata for each text block is preserved within the dataset. Driven by this original intention to achieve article-level granularity, the current OCR pipeline available in the repository incorporates a grouping mechanism to assemble text blocks back into logical article structures.
 
 ## Dataset Overview
 
 | | |
 |---|---|
-| **Articles** | 1,489 manually transcribed articles |
-| **Parallel excerpts** | 5,290 paired OCR and ground truth excerpts |
-| **Newspaper pages** | 101 pages from 6 newspaper titles |
+| **Articles** | 1,508 manually transcribed articles |
+| **Parallel excerpts** | 5,383 paired OCR and ground truth excerpts |
+| **Newspaper pages** | 100 pages from 6 newspaper titles |
 | **Period covered** | 1946–1965 |
-| **Total tokens** | ~212k tokens (~1,365k characters) |
+| **Total tokens** | ~285k tokens (~1,944k characters) |
 | **Baseline CER** | 8.25% |
 | **Baseline WER** | 34.22% |
 
@@ -21,48 +21,29 @@
 | Newspaper | Year | Pages |
 |---|---|---|
 | Soeara Oemoem | 1946–1947 | 25 |
-| Kedaulatan Rakjat | 1950–1958 | 26 |
+| Kedaulatan Rakjat | 1950–1958 | 23 |
 | Duta Pantjasila | 1959 | 6 |
 | Indonesia Merdeka | 1960 | 20 |
-| Bintang Timoer | 1963 | 10 |
+| Bintang Timur | 1963 | 10 |
 | Duta Masjarakat | 1963–1965 | 16 |
 
 ## Data Access
 
 The full dataset is publicly available on Mendeley Data:
-
 > Afriyanti, I., Muhammad Azzam, N. (2026). *HistoriKorpus*. 
-> Mendeley Data. https://doi.org/10.17632/b6p3jgdx83.1
+> Mendeley Data. https://doi.org/10.17632/b6p3jgdx83.2
 
 ## Data Source
 
 The newspaper scans used in this dataset were sourced from the 
 [Khastara Repository](https://khastara.perpusnas.go.id/), the digital 
 archive of the National Library of Indonesia (Perpusnas). A subset of 
-101 pages was selected for OCR processing and manual transcription. 
-The original scans used in this work are accessible via the following 
-link:
-
-📄 [Download Newspaper Scans (Google Drive)](https://drive.google.com/drive/folders/1yJhS--l3nBGNG5S0bXbqtbBmGj_A9rg7?usp=sharing)
-
-> **Note:** The scans are provided solely for research and academic 
-> purposes. All original materials remain the property of the National 
-> Library of Indonesia (Perpusnas).
-
-## Dependencies
-```bash
-!pip install doclayout-yolo
-!sudo apt install tesseract-ocr
-!pip install pytesseract
-!apt-get install -y tesseract-ocr
-!apt-get install -y libtesseract-dev
-!sudo apt install tesseract-ocr-ind
-!sudo apt install tesseract-ocr-nld
-```
+100 pages was selected for OCR processing and manual transcription. 
+The original scans used in this work are accessible via [Mendeley Data](https://doi.org/10.17632/b6p3jgdx83.2)
 
 ## Reproducing the OCR
 See [`ocr_pipeline/README.md`](ocr_pipeline/README.md). Re-running the pipeline with different hardware or library versions
-may slightly change block boundaries and numbering.
+may slightly change block boundaries and grouping.
 
 ## 📜 License
 
