@@ -33,13 +33,13 @@ The full dataset is publicly available on Mendeley Data:
 > Afriyanti, I., Muhammad Azzam, N. (2026). *HistoriKorpus*. 
 > Mendeley Data. https://doi.org/10.17632/b6p3jgdx83.2
 
-## Data Source
+## Data Sources & Repository Access
 
-The newspaper scans used in this dataset were sourced from the 
-[Khastara Repository](https://khastara.perpusnas.go.id/), the digital 
-archive of the National Library of Indonesia (Perpusnas). A subset of 
-100 pages was selected for OCR processing and manual transcription. 
-The original scans used in this work are accessible via [Mendeley Data](https://doi.org/10.17632/b6p3jgdx83.2)
+The historical newspaper scans used in this dataset were sourced from the [Khastara Repository](https://khastara.perpusnas.go.id/), the digital archive of the National Library of Indonesia (Perpusnas). A curated subset of 100 pages was selected for OCR processing and manual transcription.
+
+The original scans used in this work are accessible via [Mendeley Data](https://doi.org/10.17632/b6p3jgdx83.2). Alternatively, you can download the dataset directly via Google Drive:
+- **PDF version:** [Google Drive Folder (PDF)](https://drive.google.com/drive/folders/1nHvsaHHgv_irN-P_Zcl0ypLloNWs7ADu?usp=drive_link)
+- **JPG version:** [Google Drive Folder (JPG)](https://drive.google.com/drive/folders/1kuyo9A5_PLFx1juQpBx-LI6N176O3vtH?usp=drive_link)
 
 ## Reproducing the OCR
 See [`ocr_pipeline/README.md`](ocr_pipeline/README.md). Re-running the pipeline with different hardware or library versions
