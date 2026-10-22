@@ -10,7 +10,7 @@ text), not at the article level. Blocks are grouped into ordered partitions
 that approximate article-level units, but partitions are heuristic and were
 not evaluated as article boundaries.
 
-![Pipeline data flow](/assets/pipeline_flow.jpg)
+![Pipeline data flow](/pipeline_flow.jpg)
 
 ## Pipeline overview
 
